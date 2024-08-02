@@ -5,7 +5,7 @@ import styles from '@/app/ui/home.module.css'
 import { Lusitana } from 'next/font/google';
 import Image from 'next/image';
 
-export const lusitana = Lusitana({ 
+const lusitana = Lusitana({ 
   subsets: ['latin'],
   weight: '400',
   variable: '--font-lusitana' 
